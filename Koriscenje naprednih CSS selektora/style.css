@@ -1,0 +1,33 @@
+.prvi {
+  color: rgb(20, 209, 20);
+}
+
+.drugi {
+  color: rgb(20, 209, 20);
+}
+
+.treci {
+  color: red;
+}
+
+.second_div p:nth-child(even) {
+  color: red;
+}
+
+.second_div p:nth-child(odd) {
+  color: blue;
+}
+
+.p2::after {
+  content: "-NEW";
+  color:rgb(255, 255, 0);
+}
+
+.p3::after {
+  content: "-NEW";
+  color:rgb(255, 255, 0);
+}
+
+.p10:hover {
+  font-style: italic;
+}
