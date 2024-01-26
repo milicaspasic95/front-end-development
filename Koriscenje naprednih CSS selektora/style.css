@@ -1,33 +1,24 @@
-.prvi {
-  color: rgb(20, 209, 20);
+a[target] {
+  color: rgb(50, 241, 50);
 }
 
-.drugi {
-  color: rgb(20, 209, 20);
-}
-
-.treci {
+a[target="_blank"] {
   color: red;
 }
 
-.second_div p:nth-child(even) {
+div p:nth-child(even) {
   color: red;
 }
 
-.second_div p:nth-child(odd) {
+div p:nth-child(odd) {
   color: blue;
 }
 
-.p2::after {
+h2 ~ p::after {
   content: "-NEW";
-  color:rgb(255, 255, 0);
+  color: rgb(255, 255, 0);
 }
 
-.p3::after {
-  content: "-NEW";
-  color:rgb(255, 255, 0);
-}
-
-.p10:hover {
+div > p:nth-last-child(2) + p:hover {
   font-style: italic;
 }
