@@ -1,24 +1,24 @@
-a[target] {
+a {
   color: rgb(50, 241, 50);
 }
 
 a[target="_blank"] {
   color: red;
 }
-
-div p:nth-child(even) {
-  color: red;
-}
-
-div p:nth-child(odd) {
-  color: blue;
-}
-
+ 
 h2 ~ p::after {
   content: "-NEW";
   color: rgb(255, 255, 0);
 }
 
-div > p:nth-last-child(2) + p:hover {
+p:nth-child(7) ~ p:hover {
   font-style: italic;
+}
+
+h3 ~ p:nth-child(even) {
+  color: red;
+}
+
+h3 ~ p:nth-child(odd) {
+  color: blue;
 }
