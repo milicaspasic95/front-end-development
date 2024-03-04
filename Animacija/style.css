@@ -15,6 +15,7 @@ body {
   border-radius: 50%;
   background: linear-gradient(#fb5dad, #55fb9f, #b97aff);
   animation: my_animation 1.7s linear infinite;
+  transform: scale(.33);
 }
 
 @keyframes my_animation {
@@ -25,6 +26,7 @@ body {
     transform: rotate(360deg);
   }
 }
+
 
 .loading span {
   position: absolute;
